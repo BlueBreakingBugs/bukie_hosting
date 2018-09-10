@@ -1,0 +1,18 @@
+{
+  "hosting": {
+    "target":"bukie",
+    "public": "main/privacypolicy",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+
+}

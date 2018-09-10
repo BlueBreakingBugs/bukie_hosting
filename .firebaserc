@@ -1,0 +1,23 @@
+{
+  "projects": {
+    "default": "booksapp-e588d"
+  },
+  "targets": {
+    "booksapp-e588d": {
+      "hosting": {
+        "route": [
+          "booksapp-e588d"
+        ],
+        "pripol": [
+          "privacypolicy-bc390"
+        ],
+        "random": [
+          "downloadapp"
+        ],
+        "bukie": [
+          "bukie2018"
+        ]
+      }
+    }
+  }
+}
