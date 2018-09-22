@@ -1,7 +1,7 @@
 {
   "hosting": {
     "target":"bukie",
-    "public": "main/privacypolicy",
+    "public": "main",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -9,8 +9,12 @@
     ],
     "rewrites": [
       {
-        "source": "**",
+        "source": "/home",
         "destination": "/index.html"
+      },
+      {
+        "source": "/privacy",
+        "destination": "/privacypolicy.html"
       }
     ]
   }
